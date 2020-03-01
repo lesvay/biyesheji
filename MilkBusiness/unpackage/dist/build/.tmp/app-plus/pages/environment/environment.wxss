@@ -2,6 +2,7 @@
 .envir-box{
 	padding: 0 100rpx;
 	position: relative;
+	height: 360rpx;
 }
 .envir-logo{
 	width: 100%;

@@ -5,7 +5,7 @@
     "iPad"
   ],
   "id": "__UNI__F311A02",
-  "name": "智能鲜奶机商家端",
+  "name": "毕业设计-智能鲜奶机",
   "version": {
     "name": "1.0.2",
     "code": 102
@@ -148,25 +148,25 @@
           "pagePath": "pages/booth/booth",
           "iconPath": "static/tab/booth_n.png",
           "selectedIconPath": "static/tab/booth_h.png",
-          "text": "奶位监控"
+          "text": "奶位监测"
         },
         {
           "pagePath": "pages/environment/environment",
           "iconPath": "static/tab/environment_n.png",
           "selectedIconPath": "static/tab/environment_h.png",
-          "text": "环境监控"
+          "text": "环境监测"
         },
         {
           "pagePath": "pages/member/member",
           "iconPath": "static/tab/member_n.png",
           "selectedIconPath": "static/tab/member_h.png",
-          "text": "会员管理"
+          "text": "会员分析"
         },
         {
           "pagePath": "pages/count/count",
           "iconPath": "static/tab/count_n.png",
           "selectedIconPath": "static/tab/count_h.png",
-          "text": "销售管理"
+          "text": "销售分析"
         }
       ],
       "height": "50px",
