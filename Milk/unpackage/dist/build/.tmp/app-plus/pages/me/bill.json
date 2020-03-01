@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "消费记录",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "",
+        "fontSrc": "/static/iconfont.ttf",
+        "fontSize": "22px"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

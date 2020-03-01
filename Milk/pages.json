@@ -1,0 +1,133 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path": "pages/guide/index",
+		    "style": {
+		        "navigationBarTitleText": "启动页",
+		        "app-plus": {
+		            "titleNView": false
+		        },
+		        "navigationStyle": "custom"
+		    }
+		},
+		{
+		    "path": "pages/guide/guide",
+		    "style": {
+		        "navigationBarTitleText": "启动介绍页",
+		        "app-plus": {
+		            "titleNView": false,
+		            "bounce": "none"
+		        },
+		        "navigationStyle": "custom"
+		    }
+		},
+		{
+            "path": "pages/login/login",
+            "style": {
+                "navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+            }
+        },
+		{
+		    "path": "pages/login/register",
+		    "style": {
+		        "navigationBarTitleText": "注册",
+				"navigationStyle": "custom"
+		    }
+		},
+		{
+            "path": "pages/me/me",
+            "style": {
+                "navigationBarTitleText": "毕业设计-智能鲜奶贩卖机",
+				"titleNView": {
+					"buttons": [{
+							"text": "\ue609",
+							"fontSrc": "/static/iconfont.ttf",
+							"fontSize": "22px"
+						}
+					]
+				}
+				
+            }
+        },
+		{
+            "path" : "pages/QRcode/QRcode",
+            "style" : {
+				"navigationBarTitleText": "二维码扫描溯源"
+			}
+        },
+		{
+            "path" : "pages/me/bill",
+            "style" : {
+				"navigationBarTitleText": "消费分析",
+				"titleNView": {
+					"buttons": [{
+							"text": "\ue609",
+							"fontSrc": "/static/iconfont.ttf",
+							"fontSize": "22px"
+						}
+					]
+				}
+			}
+        },
+		{
+            "path" : "pages/me/rfid",
+            "style" : {
+				"navigationBarTitleText": "卡片绑定"
+			}
+        },
+		{
+            "path" : "pages/me/wealth",
+            "style" : {
+				"navigationBarTitleText": "余额充值"
+			}
+        },
+		{
+            "path" : "pages/me/help",
+            "style" : {
+				"navigationBarTitleText": "帮助中心"
+			}
+        },
+		{
+            "path" : "pages/me/about",
+            "style" : {
+				"navigationBarTitleText": "关于我们"
+			}
+        }
+        ,{
+            "path" : "pages/QRcode/detail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/login/index",
+            "style" : {}
+        }
+    ],
+	"tabBar": {
+	    "color" : "#bbbbbb",
+	    "borderStyle" : "white",
+	    "selectedColor": "#4191ea",
+	    "backgroundColor" : "#FFFFFF",
+	    "position":"bottom",
+	    "list": [
+	        {
+	            "pagePath": "pages/QRcode/QRcode",
+	            "iconPath": "static/tab/scan_n.png",
+	            "selectedIconPath": "static/tab/scan_h.png",
+	            "text": "溯源"
+	        },
+	        {
+	            "pagePath": "pages/me/me",
+	            "iconPath":"static/tab/me_n.png",
+	            "selectedIconPath":"static/tab/me_h.png",
+	            "text": "我的"
+	        }
+	    ]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "毕业设计-智能鲜奶贩卖机",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

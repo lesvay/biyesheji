@@ -1,0 +1,1 @@
+<view><view class="help-box"><image class="help-logo" src="../../static/logo.png" mode="aspectFit"></image><view class="help-title">帮助文档</view></view><view class="info-box"></view></view>

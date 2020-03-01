@@ -1,0 +1,56 @@
+
+.wealth-box{
+		padding: 0 100rpx;
+		position: relative;
+}
+.wealth-logo{
+		width: 100%;
+		width: 100%;
+		height: 310rpx;
+		margin-top: 50rpx;
+}
+.wealth-title{
+		position: absolute;
+		top: 0;
+		line-height: 360rpx;
+		font-size: 68rpx;
+		color: #fff;
+		text-align: center;
+		width: 100%;
+		margin-left: -100rpx;
+		margin-top: 50rpx;
+}
+.wealth-form{
+		margin-top: 200rpx;
+}
+.wealth-input{
+		background: #e2f5fc;
+		margin-top: 30rpx;
+		border-radius: 100rpx;
+		padding: 20rpx 40rpx;
+		font-size: 36rpx;
+}
+.input-placeholder, .wealth-input{
+		color: #94afce;
+}
+.wealth-text{
+		padding-left: 20rpx;
+		color: #a7b6d0;
+}
+.wealth-btn{
+		background: #4191ea;
+		color: #fff;
+		border: 0;
+		border-radius: 100rpx;
+		font-size: 36rpx;
+		margin-top: 60rpx;
+}
+.wealth-btn:after{
+		border: 0;
+}
+	/*按钮点击效果*/
+.wealth-btn.button-hover{
+		-webkit-transform: translate(1rpx, 1rpx);
+		        transform: translate(1rpx, 1rpx);
+}
+

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "二维码扫描溯源",
+  "usingComponents": {
+    "scan": "/components/p-scan/scan"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "奶位监控",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "",
+        "fontSrc": "/static/iconfont.ttf",
+        "fontSize": "22px"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-section": "/components/uni-section/uni-section",
+    "uni-grid": "/components/uni-grid/uni-grid",
+    "uni-grid-item": "/components/uni-grid-item/uni-grid-item"
+  }
+}

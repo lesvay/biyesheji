@@ -1,0 +1,74 @@
+
+.envir-box{
+	padding: 0 100rpx;
+	position: relative;
+	height: 360rpx;
+}
+.envir-logo{
+	width: 100%;
+	width: 100%;
+	height: 310rpx;
+	margin-top: 50rpx;
+}
+.envir-title{
+	position: absolute;
+	top: 0;
+	line-height: 360rpx;
+	font-size: 68rpx;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	margin-left: -100rpx;
+	margin-top: 50rpx;
+}
+.info-box {
+	margin-left: 50rpx;
+	margin-right: 50rpx;
+	background-color: #fff;
+	margin-bottom: 20rpx;
+}
+.price {
+	text-align: right;
+	font-size: 46rpx;
+	font-weight: 600;
+	color: #f47925;
+	float: right;
+	margin-top: 50rpx;
+	margin-bottom: 50rpx;
+}
+.title {
+	font-size: 50rpx;
+	margin-top: 50rpx;
+	margin-bottom: 50rpx;
+	float: left;
+}
+.line{
+	width: 100%;
+	border-top: #CCC 1rpx solid;
+	padding-top: 20rpx;
+}
+.row {
+	margin-top: 50rpx;
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	margin-left: 40rpx;
+	margin-bottom: 20rpx;
+}
+.text {
+	font-size: 50rpx;
+	color: #666;
+	margin-right: 20rpx;
+}
+.content {
+	font-size: 50rpx;
+	color: #666;
+}
+.serviceitem{
+	margin-right: 10rpx;
+}
+

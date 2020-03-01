@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "环境监控",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "",
+        "fontSrc": "/static/iconfont.ttf",
+        "fontSize": "22px"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

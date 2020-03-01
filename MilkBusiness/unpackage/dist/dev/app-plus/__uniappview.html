@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+                CSS.supports('top: constant(a)'))
+            document.write(
+                '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+                (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"]::-webkit-search-cancel-button {
+                display: none;
+            }
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"智能鲜奶机商家端","entryPagePath":"pages/booth/booth.html","page":{"pages/booth/booth.html":{"window":{"navigationBarTitleText":"奶位监控","titleNView":{"buttons":[{"text":"","fontSrc":"/static/iconfont.ttf","fontSize":"22px"}]},"usingComponents":{"uni-section":"/components/uni-section/uni-section","uni-grid":"/components/uni-grid/uni-grid","uni-grid-item":"/components/uni-grid-item/uni-grid-item"}}},"pages/environment/environment.html":{"window":{"navigationBarTitleText":"环境监控","titleNView":{"buttons":[{"text":"","fontSrc":"/static/iconfont.ttf","fontSize":"22px"}]},"usingComponents":{}}},"pages/member/member.html":{"window":{"navigationBarTitleText":"会员管理","titleNView":{"buttons":[{"text":"","fontSrc":"/static/iconfont.ttf","fontSize":"22px"}]},"usingComponents":{}}},"pages/count/count.html":{"window":{"navigationBarTitleText":"账单管理","titleNView":{"buttons":[{"text":"","fontSrc":"/static/iconfont.ttf","fontSize":"22px"}]},"usingComponents":{}}},"pages/other/detail.html":{"window":{"usingComponents":{}}},"pages/other/memberdetail.html":{"window":{"usingComponents":{}}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"毕业设计-智能鲜奶贩卖机","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"}},"tabBar":{"color":"#bbbbbb","selectedColor":"#4191ea","backgroundColor":"#FFFFFF","borderStyle":"white","list":[{"pagePath":"pages/booth/booth.html","iconPath":"static/tab/booth_n.png","selectedIconPath":"static/tab/booth_h.png","text":"奶位监控"},{"pagePath":"pages/environment/environment.html","iconPath":"static/tab/environment_n.png","selectedIconPath":"static/tab/environment_h.png","text":"环境监控"},{"pagePath":"pages/member/member.html","iconPath":"static/tab/member_n.png","selectedIconPath":"static/tab/member_h.png","text":"会员管理"},{"pagePath":"pages/count/count.html","iconPath":"static/tab/count_n.png","selectedIconPath":"static/tab/count_h.png","text":"销售管理"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/booth/booth","pages/environment/environment","pages/member/member","pages/count/count","pages/other/detail","pages/other/memberdetail"],"nvueCompiler":"uni-app","renderer":"auto","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"2.4.6","usingComponents":{}}
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                var wxss = page.replace('.html', '.wxss')
+                if (
+                    typeof __wxAppCode__ !== 'undefined' &&
+                    __wxAppCode__.hasOwnProperty(wxss)
+                ) {
+                    var setCssToHead = __wxAppCode__[wxss]
+                    typeof setCssToHead === 'function' && setCssToHead()
+                    document.dispatchEvent(new CustomEvent("generateFuncReady", {
+                        detail: {
+                            generateFunc: $gwx(page.replace('.html', '.wxml'))
+                        }
+                    }));
+                } else {
+                    plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+                }
+            };
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

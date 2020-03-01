@@ -1,0 +1,115 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+            "path" : "pages/booth/booth",
+            "style": {
+            	"navigationBarTitleText": "奶位监测",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+								"text": "\ue609",
+								"fontSrc": "/static/iconfont.ttf",
+								"fontSize": "22px"
+							}
+						]
+					}
+				}
+            }
+        }
+        ,{
+            "path" : "pages/environment/environment",
+            "style" : {
+				"navigationBarTitleText": "环境监测",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+								"text": "\ue609",
+								"fontSrc": "/static/iconfont.ttf",
+								"fontSize": "22px"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/member/member",
+            "style" : {
+				"navigationBarTitleText": "会员分析",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+								"text": "\ue609",
+								"fontSrc": "/static/iconfont.ttf",
+								"fontSize": "22px"
+							}
+						]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/count/count",
+            "style" : {
+				"navigationBarTitleText": "账单分析",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+								"text": "\ue609",
+								"fontSrc": "/static/iconfont.ttf",
+								"fontSize": "22px"
+							}
+						]
+					}
+				}
+			}
+        },
+		{
+		    "path" : "pages/other/detail",
+		    "style" : {}
+		}
+        ,{
+            "path" : "pages/other/memberdetail",
+            "style" : {}
+        }
+    ],
+	"tabBar": {
+	    "color" : "#bbbbbb",
+	    "borderStyle" : "white",
+	    "selectedColor": "#4191ea",
+	    "backgroundColor" : "#FFFFFF",
+	    "position":"bottom",
+	    "list": [
+	        {
+	            "pagePath": "pages/booth/booth",
+	            "iconPath": "static/tab/booth_n.png",
+	            "selectedIconPath": "static/tab/booth_h.png",
+	            "text": "奶位监测"
+	        },
+	        {
+	            "pagePath": "pages/environment/environment",
+	            "iconPath":"static/tab/environment_n.png",
+	            "selectedIconPath":"static/tab/environment_h.png",
+	            "text": "环境监测"
+	        },
+			{
+			    "pagePath": "pages/member/member",
+			    "iconPath":"static/tab/member_n.png",
+			    "selectedIconPath":"static/tab/member_h.png",
+			    "text": "会员分析"
+			},
+			{
+			    "pagePath": "pages/count/count",
+			    "iconPath":"static/tab/count_n.png",
+			    "selectedIconPath":"static/tab/count_h.png",
+			    "text": "销售分析"
+			}
+	    ]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "毕业设计-智能鲜奶贩卖机",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

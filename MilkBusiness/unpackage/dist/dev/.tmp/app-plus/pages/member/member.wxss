@@ -1,0 +1,66 @@
+
+page {
+	display: block;
+	height: 100%;
+	background-color: #efeff4;
+}
+.memberainer {
+	box-sizing: border-box;
+	height: 100%;
+	background-color: #efeff4;
+}
+.qiun-charts {
+	width: 750rpx;
+	height: 40%;
+	background-color: #FFFFFF;
+}
+.charts {
+	width: 750rpx;
+	height: 500rpx;
+	background-color: #FFFFFF;
+}
+.idxMain{ width: 100%;padding-top: 100rpx;
+}
+.idxMainBox{ width: 92%;margin: 0 auto;
+}
+.memberBg{ 
+	background: #FFFFFF;
+	overflow: hidden;
+	margin-top: 20rpx;
+	height:60%;
+	overflow-x: hidden;       /* 解决左右可以滑动的问题 */
+	overflow-y: auto;       /* 解决左右可以滑动的问题 */
+	overflow-scrolling: touch;   /*兼容性 ios5+、android4+ */}
+.memberOver{ border-bottom: 1px #EDEDED solid;overflow: hidden;-webkit-transition: all 0.4s;transition: all 0.4s;
+}
+.memberOver:active{ background: #E2E2E2;
+}
+.memberOver:last-child{ border-bottom: none;
+}
+.memberOverLt{ float: left;width: 60%;
+}
+.memberName{
+	color: #333333;
+	font-size: 30rpx;
+	width: 100%;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp:2;
+	-webkit-box-orient:vertical;
+	overflow: hidden;
+	padding-top: 30rpx;
+}
+.memberBuytime,.membermember,.membermachnum{ color: #888888;font-size: 24rpx;margin-top: 10rpx;
+}
+.memberMore{ color: #888888;font-size: 24rpx;margin-top: 30rpx;
+}
+.memberOverRt{ float: right;width: 35%;height: 155rpx;margin: 30rpx 0;
+}
+.memberPrice{
+	margin-top: 30rpx;
+	margin-left: 40%;
+}
+.memberMore{
+	float: right;
+}
+

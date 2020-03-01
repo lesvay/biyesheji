@@ -1,0 +1,29 @@
+
+.help-box{
+	padding: 0 100rpx;
+	position: relative;
+}
+.help-logo{
+	width: 100%;
+	width: 100%;
+	height: 310rpx;
+	margin-top: 50rpx;
+}
+.help-title{
+	position: absolute;
+	top: 0;
+	line-height: 360rpx;
+	font-size: 68rpx;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	margin-left: -100rpx;
+	margin-top: 50rpx;
+}
+.info-box {
+	margin-left: 50rpx;
+	margin-right: 50rpx;
+	background-color: #fff;
+	margin-bottom: 20rpx;
+}
+

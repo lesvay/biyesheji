@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "启动介绍页",
+  "navigationStyle": "custom",
+  "titleNView": false,
+  "bounce": "none",
+  "usingComponents": {}
+}

@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "毕业设计-智能鲜奶贩卖机",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "",
+        "fontSrc": "/static/iconfont.ttf",
+        "fontSize": "22px"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
